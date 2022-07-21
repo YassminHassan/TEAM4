@@ -1,0 +1,10 @@
+body {background-image: url(aa.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+h2 {text-align: center;}
+
+div {display: flex;
+
+}
+

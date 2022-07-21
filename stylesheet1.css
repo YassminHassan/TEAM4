@@ -1,0 +1,49 @@
+body{
+
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-size: large;
+ }
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+div.parnt1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1fr 1fr ;
+    justify-content: center;
+}
+p {
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 500px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+  display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
